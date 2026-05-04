@@ -1,4 +1,4 @@
-This is a demo project to showcase:
+This is a demo project to showcase bug in [Unfold-admin:#2017](https://github.com/unfoldadmin/django-unfold/issues/2017)
 
 django-unfold 0.87.0 bug: `RangeDateFilter` can fail on first use when the
 same changelist also renders Django admin date widgets from `list_editable`.
