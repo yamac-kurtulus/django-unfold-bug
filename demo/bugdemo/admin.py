@@ -9,6 +9,6 @@ from .models import Report
 class ReportAdmin(ModelAdmin):
     list_display = ["title", "filter_date", "editable_date"]
     list_editable = ["editable_date"]
-    list_filter = [("filter_date", RangeDateFilter)]
+    list_filter = [("filter_date", RangeDateFilter), ("editable_date", RangeDateFilter)]
     search_fields = ["title"]
     list_filter_submit = False
